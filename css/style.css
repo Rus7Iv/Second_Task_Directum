@@ -1,0 +1,362 @@
+*,
+*::before,
+::after{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+.imgheader{
+    width: 142px;
+    height: 142px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 217px;
+}
+body {
+    height: 100%;
+    line-height: 1;
+    font-size: 16px;
+    color: #FFFF;
+    font-family: "Segoe UI";
+    padding: 0;
+    margin: 0;
+}
+.wrapper{
+    min-height: 100%;
+    overflow: hidden;
+}
+.header-wrapper{
+    background-color: #17A2B8;
+}
+.header-container{
+    margin: 0px auto;
+    box-sizing: border-box;
+    max-width: 1078px;
+    font-family: 'Segoe UI';
+    font-weight: 600;
+}
+.group{
+    display: flex;
+    flex-direction: column;
+    margin: 0px auto;
+}
+.h11{
+    margin-top: 48px;
+    font-size: 36px;
+    text-align: center;
+    font-family: 'Segoe UI';
+    font-weight: 600;
+    line-height: 48px;
+}
+.h22{
+    margin-top: 32px;
+    font-size: 24px;
+    text-align: center;
+    font-family: 'Segoe UI';
+    font-weight: 600;
+    line-height: 32px;
+}
+.h23{
+    margin-top: 24px;
+    font-size: 24px;
+    text-align: center;
+    font-family: 'Segoe UI';
+    font-weight: 600;
+    line-height: 32px;
+}
+.h24{
+    color: #000;
+    font-family: 'Segoe UI';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    color: #000000;
+}
+.h24>b{
+    font-weight: 600;
+}
+.dearfriends{
+    display: inline-block;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    background-color: #F8F9FA;
+    margin: 0px auto;
+}
+.registrationform{
+    margin: 0px auto;
+    display: inline-block;
+    max-width: 570px;
+    padding-top: 48px;
+    padding-bottom: 6px;
+}
+.reg{
+    margin-left: 191px;
+    margin-top: 48px;
+    color: #000;
+    font-size: 32px;
+    text-align: center;
+    font-family: "Segoe UI";
+    src: url("/fonts/Segoe/Segoe\ UI\ Semibold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 600;
+    line-height: 43px;
+    margin: 0px auto;
+}
+.val{
+    color: #000;
+    font-family: 'Segoe UI';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    margin-bottom: 16px;
+}
+
+.var{
+    display: inline-block;
+    color: #000;
+    font-family: 'Segoe UI';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    margin-bottom: 42px;
+    margin-right: 30px;
+}
+.var1{
+    display: inline-block;
+
+    margin-left: 1px;
+    color: #000;
+    font-family: 'Segoe UI';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    margin-bottom: 42px;
+}
+.var2{
+    display: none;
+    margin-left: 1px;
+    color: #000;
+    font-family: 'Segoe UI';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    margin-bottom: 42px;
+}
+.spikers{
+    margin-top: 39px;
+    margin-bottom: 32px;
+    font-family: 'Segoe UI';
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 43px;
+    text-align: center;
+
+    color: #000000;
+}
+.spikers1{
+    display: none;
+    margin-top: 39px;
+    margin-bottom: 32px;
+    font-family: 'Segoe UI';
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 43px;
+    text-align: center;
+
+    color: #000000;
+}
+.pikachu{
+    font-family: 'Segoe UI';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+
+    color: #000000;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.descriptionpika{
+    font-family: 'Segoe UI';
+    font-weight: 400;
+    font-style: italic;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+
+    color: #000000;
+}
+.img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.scndblock-wrapper{
+    background-color: #F8F9FA;
+}
+.scndblock-container{
+    display: flex;
+    max-width: 1078px;
+    flex-wrap: wrap;
+    margin-top: 48px;
+    margin: 8px auto 0;
+}
+.thrdblock-wrapper{
+    background-color: #FFFF;
+}
+.thrdblock-container{
+    display: flex;
+    flex-direction: column;
+    max-width: 1078px;
+    margin: 0px auto 0;
+}
+.pikas{
+    margin-left: 478px;
+    display: grid;
+    grid-template-columns: repeat(4, 205Px);
+    grid-gap: 32px;
+    grid-auto-rows: min-content;
+    margin: 0px auto 48px;
+}
+.ava{
+    width: 217px;
+    height: 205px;
+}
+.bottom1{
+    grid-column: 2/2;
+}
+.bottom2{
+    grid-column: 3/3;
+}
+.footer-wrapper{
+    background-color: #F8F9FA;
+}
+.footer-container{
+    padding: 45px 0px;
+    max-width: 1920px;
+    justify-content: center;
+    margin: 0px auto 0;
+}
+.imglogo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 16px;
+    margin: 0px auto 0;
+}
+.footer-string{
+    display: block;
+    font-family: 'Segoe UI';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    color: #BABABA;
+    margin: 0px auto 0;
+}
+
+@font-face {
+    font-family: "Segoe UI"; 
+    src: url("/fonts/Segoe/Segoe\ UI.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+    } 
+@font-face {
+    font-family: "Segoe UI"; 
+    src: url("/fonts/Segoe/Segoe\ UI\ Semibold.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: 600; 
+    } 
+
+@media(max-width:3000px){
+    .header-container{
+        padding-bottom: 217px;
+    }
+}
+@media (max-width:1920px){
+    .imgheader{
+        margin-top: 217px;
+    }
+    .h23{
+        margin-bottom: 218px;
+    }
+    .dearfriends{
+        max-width: 540px;
+    }
+    .header-container{
+        padding-bottom: 0px;
+    }
+} 
+@media(max-width:982px){
+    .pikas{
+        grid-template-columns: repeat(3,205px);
+    }
+    .h24{
+        text-align: left;
+    }
+}
+@media(max-width:712px){
+    .pikas{
+        display: block;
+    }
+    .ava{
+        margin-bottom: 24px;
+    }
+}
+ @media (max-width:768px){
+    .imgheader{
+        margin-top: 333px;
+    }
+    .h23{
+        margin-bottom: 333px;
+    }
+    .scndblock-container{
+        flex-direction: column;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .dearfriends{
+        max-width: 690px;
+    }
+    .spikers{
+        display: none;
+    }
+    .spikers1{
+        display: block;
+    }
+} 
+@media (max-width:410px){
+    .imgheader{
+        margin-top: 105px;
+    }
+    .h23{
+        margin-bottom: 105px;
+    }
+    .reg{
+        margin-left: 0px;
+        text-align: left;
+    }
+    .form-wrapper{
+        display: none;
+    }
+    .dearfriends{
+        display: none;
+    }
+    .var2{
+        display: block;
+    }
+    .scndblock-container{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .spikers1{
+        text-align: left;
+        margin-left: 13px;
+    }
+    .registrationform{
+        padding-top: 24px;
+    }
+} 
